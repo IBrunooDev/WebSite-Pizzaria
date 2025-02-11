@@ -1,0 +1,113 @@
+/* COR ⇊ */
+:root {
+
+    /* COR DO MENU PRINCIPAL */
+    --cor-menu-principal: #232323;
+
+    /* COR TITULO BEM VINDO */
+    --cor-titulo-bem-vindo: #fff;
+
+    /* COR DA TAG "A" */
+    --cor-link-do-menu: #fff;
+
+    /* COR DO BOTAO DO CARDAPIO */
+    --cor-botao-cardapio: #ffa500;
+
+    /* COR DO CARD MENU */
+    --cor-car-menu: #d9d6d685;
+
+}
+
+/* Preenchimento Principal ⇊ */
+:root {
+
+    /* Peso da Fonte */
+    --peso-da-fonte: 100;
+
+    /* Mover os Links para direita */
+    --move-links-para-direita: 32rem;
+
+    /* Espaço entre os links */
+    --espaco-entre-os-links: .70rem;
+
+    /* Preenchimento Menu */
+    --preenchimento-interno-menu: .02rem;
+
+    /* Tamanho do Titulos h1 */
+    --tamanho-do-titulo-h1: 2.90rem;
+
+    /* Tamanho do Titulos h2 */
+    --tamanho-do-titulo-h2: 1.90rem;
+
+    /* Botao Preenchimento */
+    --preenchimento-interna-botao: .90rem;
+
+    /* Deixa a borda redonda */
+    --botao-Redondo: 10px;
+
+    /* Largura do Botao */
+    --largura-botao-cardapio: 10%;
+}
+
+
+/* Preenchimento do Cardapio ⇊ */
+:root {
+
+    /* Tamanho do titulo cardapio */
+    --tamanho-do-titulo-h2-cardapio: 1.90rem;
+
+    /* margin em cima do titulo cardapio */
+    --espaco-em-cima-titulo-cardapio: 1.90rem;
+
+    /* margin em baixo do titulo cardapio */
+    --espaco-em-baixo-titulo-cardapio: 1.90rem;
+
+    /* espaco Tag gap do Display flex espaco entra item */
+    --espaco-gap-entre-os-item: 10rem;
+
+    /* Deixa a borda redonda menu */
+    --deixa-redondo-card-menu: .50rem;
+
+    /* sonbra box-shadow */
+    --sonbra-card-menu: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+    /* Largura do Card menu */
+    --largura-card-menu: 300px;
+
+    /* Img card menu */
+    --largura-img-menu: 100%;
+
+    /* Preenchimento interno do card content */
+    --espaco-interno-content: 15px;
+
+    /* Tamanho Titulo card menu */
+    --tamanho-do-titulo-do-card: 1.25rem;
+
+    /* peso da fonte do card menu */
+    --peso-da-fonte-do-card: bold;
+
+    /* margin em baixo do titulo card menu */
+    --espaco-em-baixo-titulo-card-menu: 8px;
+
+    /* margin em cima card menu */
+    --espaco-em-cima-card-menu: 2rem;
+
+    /* Cor da descrição card menu */
+    --cor-da-descricao-card-menu: #232323;
+
+    /* Fonte size da descrição do card menu */
+    --tamanaho-da-fonte-card-menu: 0.9rem;
+}
+
+/* Preenchimento da img ⇊ */
+:root {
+
+    /* largura da img do bem vindo */
+    --largura-da-img-bem-vindo: 100;
+
+    /* altura da img bem vindo  */
+    --altura-da-img-bem-vindo: 85vh;
+
+    /* espaço do item da img display flex*/
+    --espaco-item-do-display-flex: 1rem;
+}

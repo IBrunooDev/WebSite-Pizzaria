@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--cor-menu-principal);
+  color: var(--cor-titulo-bem-vindo);
+  padding: var(--preenchimento-interno-menu);
+}
+
+ul>li {
+  padding: var(--espaco-entre-os-links);
+  left: var(--move-links-para-direita);
+
+  display: inline-block;
+  list-style: none;
+  position: relative;
+}
+
+a {
+  color: var(--cor-link-do-menu);
+
+  text-decoration: none;
+}
+
+/* ============================================= */
+/* Titulo Bem vindo */
+h1 {
+  font-size: var(--tamanho-do-titulo-h1);
+  font-weight: var(--peso-da-font);
+
+
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth";
+}
+
+p {
+  font-weight: var(--peso-da-font);
+
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth";
+}
+
+button {
+  background-color: #ffa500;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 12rem;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}
+
+.cor {
+  color: #333
+}
+
+/* button {
+  background-color: var(--cor-botao-cardapio);
+  padding: var(--preenchimento-interna-botao);
+  border-radius: var(--botao-Redondo);
+  width: var(--largura-botao-cardapio);
+
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+} */
+
+/* ============================================= */
+/* h2 do Nome Cardapio */
+h2 {
+  font-size: var(--tamanho-do-titulo-h2-cardapio);
+  margin-bottom: var(--espaco-em-cima-titulo-cardapio);
+  margin-top: var(--espaco-em-baixo-titulo-cardapio);
+
+  text-align: center;
+}
+
+.menu-container {
+  gap: var(--espaco-gap-entre-os-item);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--cor-car-menu);
+  border-radius: var(--deixa-redondo-card-menu);
+  box-shadow: var(--sonbra-card-men);
+  width: var(--largura-card-menu);
+  margin-top: var(--espaco-em-cima-card-menu);
+
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  width: var(--largura-img-menu);
+
+  height: auto;
+}
+
+.card-content {
+  padding: var(--espaco-interno-content);
+}
+
+.card-title {
+  font-size: var(--tamanho-do-titulo-do-card);
+  font-weight: var(--peso-da-fonte-do-card);
+  margin-bottom: var(--espaco-em-baixo-titulo-card-menu);
+}
+
+.card-description {
+  color: var(--cor-da-descricao-card-menu);
+  font-size: var(--tamanaho-da-fonte-card-menu);
+}
+
+/* ============================================= */
+/* SOBRE NÓS */
+
+.sobre-nos {
+  background-image: url("/src/img/Sobre.png");
+  /* Substitua pelo caminho da imagem */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 150px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 3.90rem;
+
+
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth";
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+  /* Transparência escura */
+}
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth";
+}
+
+
+p {
+  font-size: .90rem;
+}
+
+/* ============================================= */
+/* CONTATO */
+
+.contato {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.informacoes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.info-bloco {
+  max-width: 300px;
+  margin: 10px;
+  text-align: left;
+}
+
+.botao {
+  background-color: #ffa500;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 12rem;
+}
+
+.botao:hover {
+  background-color: #ff8c00;
+}
+
+.cor {
+  color: #333
+}

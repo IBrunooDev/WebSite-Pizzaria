@@ -1,0 +1,15 @@
+.container {
+    background-image: url("/src/img/Banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: var(--largura-da-img-bem-vindo);
+    height: var(--altura-da-img-bem-vindo);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--espaco-item-do-display-flex);
+
+}
+
