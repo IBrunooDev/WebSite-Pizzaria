@@ -244,3 +244,82 @@ p {
 .cor {
   color: #333
 }
+
+/* ============================================= */
+/* RESPONSIVIDADE GERAL */
+
+@media (max-width: 1024px) {
+  .menu-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 45%; /* Dois cards por linha */
+  }
+
+  .info-bloco {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  ul>li {
+    display: block;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .menu-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .info-bloco {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .sobre-nos {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button,
+  .botao {
+    width: 100%;
+  }
+
+  .menu-container {
+    padding: 1rem;
+  }
+}
