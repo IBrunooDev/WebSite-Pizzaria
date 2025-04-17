@@ -1,7 +1,7 @@
 ### <h1 align="center"> :computer: Web Site Pizzaria Devs :computer:</h1>
 
 <p align="center">
- <a href="https://web-pizzaria.netlify.app/">Web Site Esta Rodando</a><br/>
+ <a href="https://web-pizzaria.netlify.app/">Clique Aqui para ir ao Site</a><br/>
 </p>
 
 <br>
